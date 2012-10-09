@@ -16,9 +16,8 @@
       />
   <!-- -*- extra stuff goes here -*- -->
   <include package="collective.ckeditor" />
-  <include package="collective.plonefinder" />
+  <!--include package="collective.plonefinder" />
   <include package="quintagroup.dropdownmenu" />
-  <include package="Products.LinguaPlone" />
   <include package="collective.quickupload" />
   <include package="collective.js.jqueryui" />
   <include package="collective.quickupload" />
@@ -29,5 +28,6 @@
   <include package="collective.js.fullcalendar" />
   <include package="plone.app.jquerytools" />
   <include package="plone.app.theming" />
+  <include package="Products.LinguaPlone" /-->
   
 </configure>

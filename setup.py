@@ -47,7 +47,7 @@ setup(name='policy.acjette',
 	  'collective.js.colorpicker',
 	  'collective.js.fullcalendar',
 	  'plone.app.jquerytools',
-	  'plone.app.theming',
+	  'plone.app.theming'
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
