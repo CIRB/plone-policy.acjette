@@ -16,18 +16,18 @@
       />
   <!-- -*- extra stuff goes here -*- -->
   <include package="collective.ckeditor" />
-  <include package="Collective Plone Finder" />
-  <include package="Dropdown menu" />
-  <include package="LinguaPlone" />
-  <include package="Plone JQuery Integration" />
-  <include package="Plone JQuery Tools Integration" />
-  <include package="Plone Quick Upload" />
-  <include package="PloneFormGen" />
-  <include package="Solgema ContextualContentMenu" />
-  <include package="Solgema Fullcalendar" />
-  <include package="jQuery Color Picker" />
-  <include package="jQuery FullCalendar plugin" />
-  <include package="jQuery UI" />
-  <include package="Diazo theme support" />
+  <include package="collective.plonefinder" />
+  <include package="quintagroup.dropdownmenu" />
+  <include package="Products.LinguaPlone" />
+  <include package="collective.quickupload" />
+  <include package="collective.js.jqueryui" />
+  <include package="collective.quickupload" />
+  <include package="Products.PloneFormGen" />
+  <include package="Solgema.ContextualContentMenu" />
+  <include package="Solgema.fullcalendar" />
+  <include package="collective.js.colorpicker" />
+  <include package="collective.js.fullcalendar" />
+  <include package="plone.app.jquerytools" />
+  <include package="plone.app.theming" />
   
 </configure>
