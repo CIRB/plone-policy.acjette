@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="policy.acjette">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="policy.acjette"
+      directory="profiles/default"
+      description="Installs the policy.acjette package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  <!-- -*- extra stuff goes here -*- -->
+  <include package="collective.ckeditor" />
+  <include package="Collective Plone Finder" />
+  <include package="Dropdown menu" />
+  <include package="LinguaPlone" />
+  <include package="Plone JQuery Integration" />
+  <include package="Plone JQuery Tools Integration" />
+  <include package="Plone Quick Upload" />
+  <include package="PloneFormGen" />
+  <include package="Solgema ContextualContentMenu" />
+  <include package="Solgema Fullcalendar" />
+  <include package="jQuery Color Picker" />
+  <include package="jQuery FullCalendar plugin" />
+  <include package="jQuery UI" />
+  <include package="Diazo theme support" />
+  
+</configure>
