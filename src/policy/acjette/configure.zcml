@@ -17,7 +17,7 @@
   <!-- -*- extra stuff goes here -*- -->
   <include package="collective.ckeditor" />
   <!--include package="collective.plonefinder" />
-  <include package="quintagroup.dropdownmenu" />
+  <include package="webcouturier.dropdownmenu" />
   <include package="collective.quickupload" />
   <include package="collective.js.jqueryui" />
   <include package="collective.quickupload" />
