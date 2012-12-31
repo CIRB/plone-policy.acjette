@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<import-steps>
+    <import-step id="acjette-install" version="20121228-01"
+        handler="policy.acjette.setuphandlers.setupACJette"
+        title="init acjette">
+    </import-step>
+</import-steps>
