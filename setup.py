@@ -49,6 +49,7 @@ setup(name='policy.acjette',
             'plone.app.jquerytools',
             'plone.app.theming',
             'plonetheme.acjette',
+            'collective.easyslider',
             ],
         extras_require={'test': ['plone.app.testing']},
         entry_points="""
