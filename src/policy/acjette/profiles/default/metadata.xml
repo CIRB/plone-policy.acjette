@@ -15,5 +15,6 @@
 		<dependency>profile-collective.js.fullcalendar:default</dependency>
 		<dependency>profile-collective.js.colorpicker:default</dependency>
 		<dependency>profile-plone.app.jquerytools:default</dependency> 
+        <dependency>profile-collective.easyslider:default</dependency>
 	</dependencies>
 </metadata>
