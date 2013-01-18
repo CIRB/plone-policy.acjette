@@ -77,6 +77,16 @@ def setupACJette(context):
     footer.setExcludeFromNav(True)
     footer.reindexObject()
 
+    fr.commun.invokeFactory(type_name='Document',
+        id='tagline',
+        title='Tagline',
+        description='',
+        language='fr')
+    tagline = fr.commun.tagline
+    portal_workflow.doActionFor(tagline, 'publish')
+    tagline.setExcludeFromNav(True)
+    tagline.reindexObject()
+
     nl = site.nl
 
     nl.invokeFactory(type_name='Folder',
@@ -122,5 +132,16 @@ def setupACJette(context):
     footernl.addTranslationReference(footer)
     footernl.setExcludeFromNav(True)
     footernl.reindexObject()
+
+    nl.common.invokeFactory(type_name='Document',
+        id='tagline',
+        title='Tagline',
+        description='',
+        language='nl')
+    taglinenl = nl.common.tagline
+    portal_workflow.doActionFor(taglinenl, 'publish')
+    taglinenl.addTranslationReference(tagline)
+    taglinenl.setExcludeFromNav(True)
+    taglinenl.reindexObject()
 
     logger.info('end setup ACJette')
